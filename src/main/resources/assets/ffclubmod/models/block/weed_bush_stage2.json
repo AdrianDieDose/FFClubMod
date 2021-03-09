@@ -1,0 +1,6 @@
+{
+	"parent": "block/cross",
+	"textures": {
+		"cross": "ffclubmod:blocks/weed_bush_stage2"
+	}
+}

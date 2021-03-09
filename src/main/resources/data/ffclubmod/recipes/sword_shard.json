@@ -1,0 +1,15 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern":
+    [
+        "HHH",
+        "HEH",
+        "HHH"
+    ],
+    "key":
+    {
+        "H": {"item": "ffclubmod:hardened_steel_ingot"},
+        "E": {"item": "ffclubmod:exile_ingot"}
+    },
+    "result": {"item": "ffclubmod:sword_shard"}
+}

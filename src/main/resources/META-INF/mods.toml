@@ -1,0 +1,24 @@
+
+modLoader="javafml" 
+loaderVersion="[31,)" 
+issueTrackerURL="http://my.issue.tracker/" #optional
+[[mods]] #mandatory
+modId="ffclubmod" 
+version="${0.1}" 
+displayName="FueFue Club Mod" 
+logoFile="ff.png" 
+credits="Julesoderso for the artwork :)" 
+authors="AdrianDieDose" 
+description='This is an official FueFue Club Mod™'
+[[dependencies.ffclubmod]] #optional
+    modId="forge" #mandatory
+    mandatory=true #mandatory
+    versionRange="[31,)" #mandatory
+    ordering="NONE"
+    side="BOTH"
+[[dependencies.ffclubmod]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.15.2]"
+    ordering="NONE"
+    side="BOTH"

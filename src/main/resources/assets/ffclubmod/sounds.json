@@ -1,0 +1,12 @@
+{
+	"riven_runic_blade_sound": {
+		"category": "item",
+		"subtitle": "riven_runic_blade_sound_sound.sub",
+		"sounds": [
+		{
+			"name": "ffclubmod:item/riven_runic_blade_sound",
+			"stream": true
+		}
+		]
+	}
+}
