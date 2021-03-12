@@ -1,7 +1,7 @@
 {
     "parent": "item/bow",
     "textures": {
-        "layer0": "ffclubmod:items/joint_pulling_0"
+        "layer0": "ffclubmod:items/blunt_pulling_2"
     }
 }
 

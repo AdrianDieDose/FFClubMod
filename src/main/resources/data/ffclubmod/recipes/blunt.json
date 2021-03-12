@@ -1,0 +1,15 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern":
+    [
+        "   ",
+        "WWW",
+        "PPP"
+    ],
+    "key":
+    {
+        "W": {"item": "ffclubmod:cali_cookie_weed"},
+        "P": {"item": "ffclubmod:papes"}
+    },
+    "result": {"item": "ffclubmod:blunt"}
+}

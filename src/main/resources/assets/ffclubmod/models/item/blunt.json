@@ -1,7 +1,7 @@
 {
     "parent": "item/generated",
     "textures": {
-        "layer0": "ffclubmod:items/joint"
+        "layer0": "ffclubmod:items/blunt"
     },
     "display": {
         "thirdperson_righthand": {
@@ -30,21 +30,21 @@
             "predicate": {
                 "pulling": 1
             },
-            "model": "ffclubmod:item/joint_pulling_0"
+            "model": "ffclubmod:item/blunt_pulling_0"
         },
         {
             "predicate": {
                 "pulling": 1,
                 "pull": 0.65
             },
-            "model": "ffclubmod:item/joint_pulling_1"
+            "model": "ffclubmod:item/blunt_pulling_1"
         },
         {
             "predicate": {
                 "pulling": 1,
                 "pull": 0.9
             },
-            "model": "ffclubmod:item/joint_pulling_2"
+            "model": "ffclubmod:item/blunt_pulling_2"
         }
     ]
 }

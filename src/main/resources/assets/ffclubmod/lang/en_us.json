@@ -7,8 +7,10 @@
 	"item.ffclubmod.steel_ingot": "Steel Ingot",
 	"item.ffclubmod.hardened_steel_ingot": "Hardened Steel Ingot",
 	"item.ffclubmod.cali_cookie_weed": "Cali cookie weed",
-	"item.ffclubmod.papes": "OCB Papes",
-	"item.ffclubmod.joint": "Joint",
+	"item.ffclubmod.ocbs": "OCBs",
+	"item.ffclubmod.papes": "Papes",
+	"item.ffclubmod.tip": "Tip",
+	"item.ffclubmod.blunt": "Joint",
 
 	
 	"block.ffclubmod.weed_bush": "Cali cookie weed bush seeds",

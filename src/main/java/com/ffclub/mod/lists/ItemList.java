@@ -1,7 +1,6 @@
 package com.ffclub.mod.lists;
 
 import com.ffclub.mod.Main;
-//import com.ffclub.mod.objects.items.RivenAura;
 
 import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
@@ -21,11 +20,13 @@ public class ItemList {
 	public static final RegistryObject<Item> STEEL_INGOT = ITEMS.register("steel_ingot", () -> new Item(new Item.Properties().group(Main.FF_CLUB_MOD)));
 	public static final RegistryObject<Item> HARDENED_STEEL_INGOT = ITEMS.register("hardened_steel_ingot", () -> new Item(new Item.Properties().group(Main.FF_CLUB_MOD)));
 	
-	public static final RegistryObject<Item> OCB_PAPES = ITEMS.register("papes", () -> new Item(new Item.Properties().group(Main.FF_CLUB_MOD)));
+	public static final RegistryObject<Item> OCBS = ITEMS.register("ocbs", () -> new Item(new Item.Properties().group(Main.FF_CLUB_MOD)));
+	public static final RegistryObject<Item> PAPES = ITEMS.register("papes", () -> new Item(new Item.Properties().group(Main.FF_CLUB_MOD)));
+	public static final RegistryObject<Item> TIP = ITEMS.register("tip", () -> new Item(new Item.Properties().group(Main.FF_CLUB_MOD)));
 	public static final RegistryObject<Item> CALI_COOKIE_WEED = ITEMS.register("cali_cookie_weed", () -> new Item(new Item.Properties().group(Main.FF_CLUB_MOD)));
 	public static final RegistryObject<Item> CALI_COOKIE_SEEDS = ITEMS.register("weed_bush", () -> new BlockItem(BlockList.WEED_BUSH.get(), new Item.Properties().group(Main.FF_CLUB_MOD)));
 	
-	public static final RegistryObject<Item> JOINT = ITEMS.register("joint", () -> new Joint(new Item.Properties().group(Main.FF_CLUB_MOD)));
+	public static final RegistryObject<Item> JOINT = ITEMS.register("blunt", () -> new Blunt(new Item.Properties().group(Main.FF_CLUB_MOD)));
 	
 	
 	

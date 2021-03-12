@@ -2,9 +2,9 @@ package com.ffclub.mod.lists;
 
 import net.minecraft.item.BowItem;
 
-public class Joint extends BowItem {
+public class Blunt extends BowItem {
 
-	public Joint(Properties builder) {
+	public Blunt(Properties builder) {
 		super(builder);
 	}
 }
