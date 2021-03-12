@@ -20,10 +20,14 @@ public class ItemList {
 	public static final RegistryObject<Item> EXILE_INGOT = ITEMS.register("exile_ingot", () -> new Item(new Item.Properties().group(Main.FF_CLUB_MOD)));
 	public static final RegistryObject<Item> STEEL_INGOT = ITEMS.register("steel_ingot", () -> new Item(new Item.Properties().group(Main.FF_CLUB_MOD)));
 	public static final RegistryObject<Item> HARDENED_STEEL_INGOT = ITEMS.register("hardened_steel_ingot", () -> new Item(new Item.Properties().group(Main.FF_CLUB_MOD)));
+	
+	public static final RegistryObject<Item> OCB_PAPES = ITEMS.register("papes", () -> new Item(new Item.Properties().group(Main.FF_CLUB_MOD)));
 	public static final RegistryObject<Item> CALI_COOKIE_WEED = ITEMS.register("cali_cookie_weed", () -> new Item(new Item.Properties().group(Main.FF_CLUB_MOD)));
 	public static final RegistryObject<Item> CALI_COOKIE_SEEDS = ITEMS.register("weed_bush", () -> new BlockItem(BlockList.WEED_BUSH.get(), new Item.Properties().group(Main.FF_CLUB_MOD)));
 	
-	//public static final RegistryObject<Item> RIVEN_AURA = ITEMS.register("riven_aura", () -> new RivenAura(new Item.Properties().group(Main.FF_CLUB_MOD)));
+	public static final RegistryObject<Item> JOINT = ITEMS.register("joint", () -> new Joint(new Item.Properties().group(Main.FF_CLUB_MOD)));
+	
+	
 	
 	
 	

@@ -1,6 +1,6 @@
 package com.ffclub.mod;
 
-import java.util.function.Supplier;
+
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import com.ffclub.mod.lists.BlockList;
@@ -8,11 +8,8 @@ import com.ffclub.mod.lists.ItemList;
 import com.ffclub.mod.lists.SwordList;
 import com.ffclub.mod.world.gen.CustomGeneration;
 import com.ffclub.mod.world.gen.SoundList;
-import net.minecraft.client.Minecraft;
-import net.minecraft.client.renderer.ItemRenderer;
 import net.minecraft.client.renderer.RenderType;
 import net.minecraft.client.renderer.RenderTypeLookup;
-import net.minecraft.client.renderer.entity.SpriteRenderer;
 import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemGroup;
@@ -22,7 +19,6 @@ import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.fml.DeferredWorkQueue;
 import net.minecraftforge.fml.RegistryObject;
-import net.minecraftforge.fml.client.registry.RenderingRegistry;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.common.Mod.EventBusSubscriber;
 import net.minecraftforge.fml.common.Mod.EventBusSubscriber.Bus;
@@ -79,14 +75,9 @@ public class Main {
 	
 	private void clientSetup(final FMLClientSetupEvent event) {
 		RenderTypeLookup.setRenderLayer(BlockList.WEED_BUSH.get(), RenderType.getCutout());
-		registerEntityModels(event.getMinecraftSupplier());
 		
 	}
 	
-	private void registerEntityModels(Supplier<Minecraft> minecraft) {
-		ItemRenderer renderer = minecraft.get().getItemRenderer();
-		
-	}
 	
 	
 	
