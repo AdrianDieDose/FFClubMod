@@ -6,7 +6,5 @@ public class Joint extends BowItem {
 
 	public Joint(Properties builder) {
 		super(builder);
-		// TODO Auto-generated constructor stub
 	}
-
 }
