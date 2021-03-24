@@ -1,0 +1,7 @@
+{
+    "parent": "item/bow",
+    "textures": {
+        "layer0": "ffclubmod:items/julia_bow_pulling_1"
+    }
+}
+

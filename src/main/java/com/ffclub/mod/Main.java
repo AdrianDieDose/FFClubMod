@@ -4,6 +4,7 @@ package com.ffclub.mod;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import com.ffclub.mod.lists.BlockList;
+import com.ffclub.mod.lists.BowList;
 import com.ffclub.mod.lists.ItemList;
 import com.ffclub.mod.lists.SwordList;
 import com.ffclub.mod.world.gen.CustomGeneration;
@@ -51,6 +52,7 @@ public class Main {
 		BlockList.NO_ITEM_BLOCK.register(modEventBus);
 		ItemList.ITEMS.register(modEventBus);
 		SwordList.SWORD.register(modEventBus);
+		BowList.BOW.register(modEventBus);
 
 	}
 	

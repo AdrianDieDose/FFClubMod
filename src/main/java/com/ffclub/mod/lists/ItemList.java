@@ -1,7 +1,6 @@
 package com.ffclub.mod.lists;
 
 import com.ffclub.mod.Main;
-
 import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
 import net.minecraftforge.fml.RegistryObject;
@@ -27,6 +26,10 @@ public class ItemList {
 	public static final RegistryObject<Item> CALI_COOKIE_SEEDS = ITEMS.register("weed_bush", () -> new BlockItem(BlockList.WEED_BUSH.get(), new Item.Properties().group(Main.FF_CLUB_MOD)));
 	
 	public static final RegistryObject<Item> JOINT = ITEMS.register("blunt", () -> new Blunt(new Item.Properties().group(Main.FF_CLUB_MOD).maxStackSize(1)));
+	
+	
+	public static final RegistryObject<Item> ROSE_ARROW = ITEMS.register("rose_arrow", () -> new RoseArrow(new Item.Properties().group(Main.FF_CLUB_MOD)));
+	
 	
 	
 	
