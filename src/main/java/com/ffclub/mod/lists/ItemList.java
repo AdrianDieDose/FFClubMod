@@ -26,7 +26,7 @@ public class ItemList {
 	public static final RegistryObject<Item> CALI_COOKIE_WEED = ITEMS.register("cali_cookie_weed", () -> new Item(new Item.Properties().group(Main.FF_CLUB_MOD)));
 	public static final RegistryObject<Item> CALI_COOKIE_SEEDS = ITEMS.register("weed_bush", () -> new BlockItem(BlockList.WEED_BUSH.get(), new Item.Properties().group(Main.FF_CLUB_MOD)));
 	
-	public static final RegistryObject<Item> JOINT = ITEMS.register("blunt", () -> new Blunt(new Item.Properties().group(Main.FF_CLUB_MOD)));
+	public static final RegistryObject<Item> JOINT = ITEMS.register("blunt", () -> new Blunt(new Item.Properties().group(Main.FF_CLUB_MOD).maxStackSize(1)));
 	
 	
 	
